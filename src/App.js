@@ -21,7 +21,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<div className="bg-secondary-dark-blue w-screen h-screen flex justify-center items-center">
-				<div className="bg-secondary-grayish-blue-dark max-sm:w-11/12 max-sm:m-auto flex flex-col items-center justify-between h-2/5 font-bold p-5 rounded-xl pb-0 w-2/5 sm:min-w-[500px] max-w-[600px] max-h-[300px]">
+				<div className="bg-secondary-grayish-blue-dark max-sm:w-11/12 max-sm:m-auto flex flex-col items-center justify-between h-2/5 font-bold p-5 rounded-xl pb-0 w-2/5 sm:min-w-[400px] max-w-[500px] max-h-[300px] min-h-[250px]">
 					<span className="text-primary-neon-green">ADVICE #{this.state.id}</span>
 					<blockquote className="text-center text-ctm text-primary-cyan-light">
 						"{this.state.advice}"
